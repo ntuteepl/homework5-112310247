@@ -16,7 +16,6 @@ int main() {
         cost = 800 * 0.9 + 700 * 0.9 * 0.9 + (minutes - 1500) * 0.9 * 0.79;
     }
 
-    // 四捨五入到小數點以下第一位
     cost = round(cost * 10) / 10;
 
     printf("通話費用為：%.1f\n", cost);
